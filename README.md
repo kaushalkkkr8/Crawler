@@ -20,13 +20,11 @@ Before running this project, make sure you have the following installed:
 
 --Node.js (v16 or higher is recommended).
 
-
 INSTALLATION:
 
 Clone this repository or copy the script into your project directory:
 
 --git clone <repository-url>
-
 
 INSTALL THE REQUIRED DEPENDENCIES:
 
@@ -53,10 +51,10 @@ CONFIGURATION
 File Structure
 
 project-directory/
-├── index.js         # Main script file
-├── package.json       # Dependency management
-├── scraped_links.json # Output file with scraped data
-└── README.md          # Documentation
+== index.js (Main script file)
+== package.json (Dependency management)
+== scraped_links.json (Output file with scraped data)
+==README.md (Documentation)
 
 Notes
 
