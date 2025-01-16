@@ -48,13 +48,6 @@ CONFIGURATION
 
 --By default, the script scrolls a maximum of 20 times per website to load more links. You can adjust this by modifying the scrollCount limit in the script.
 
-File Structure
-
-project-directory/
-== index.js (Main script file)
-== package.json (Dependency management)
-== scraped_links.json (Output file with scraped data)
-==README.md (Documentation)
 
 Notes
 
@@ -75,6 +68,6 @@ LIMITATION:
 AUTHOR:
 
 Kaushal
-+91-7004941251
+
 linkedIn-www.linkedin.com/in/kaushal-70156a170
 git-https://github.com/kaushalkkkr8
