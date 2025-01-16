@@ -1,15 +1,21 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "index.js",
-            "use": "@vercel/node"
-        }
+      {
+        "src": "index.js",
+        "use": "@vercel/node"
+      }
     ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "index.js"
-        }
-    ]
-}
+    "functions": {
+      "node14.x": {
+        "includeFiles": [
+          "node_modules/**/*",
+          "scraped_links.json"
+        ]
+      }
+    },
+    "env": {
+      "PLAYWRIGHT_BROWSERS_PATH": "0"
+    }
+  }
+  
