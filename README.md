@@ -27,8 +27,9 @@ Clone this repository or copy the script into your project directory:
 --git clone <repository-url>
 
 INSTALL THE REQUIRED DEPENDENCIES:
-
+--npx playwright install
 --npm install playwright-extra puppeteer-extra-plugin-stealth fs
+
 
 USAGE:
 

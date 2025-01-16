@@ -106,7 +106,7 @@ const urls = [
         }
 
         console.log(`Total links scraped from ${url}: ${links.length}`);
-        console.log(new Set([...links]));
+       
         results[url] = links
       } catch (err) {
         console.error(`Error scraping ${url}: ${err.message}`);
